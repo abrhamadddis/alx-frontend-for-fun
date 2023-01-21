@@ -1,3 +1,7 @@
+#!/usr/bin/python3
+""" check the the requirment"""
+from os import path
+import sys
 if(len(sys.argv) < 2):
     print("Usage: ./markdown2html.py README.md README.html")
     exit(1)

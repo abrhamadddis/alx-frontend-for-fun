@@ -3,7 +3,7 @@
 from os import path
 import sys
 if __name__ == "__main__":
-    if(len(sys.argv) < 2):
+    if(len(sys.argv) < 3):
         sys.stderr.write("Usage: ./markdown2html.py README.md README.html")
         sys.exit(1)
     elif (not path.exists(sys.argv[0])):
